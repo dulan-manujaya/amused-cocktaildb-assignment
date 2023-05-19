@@ -24,8 +24,8 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className="h-16 max-h-16 flex items-center justify-between shadow-lg w-full px-4 md:px-12 fixed top-0 z-30 bg-blue-500">
-      <div className="flex w-full items-center justify-between">
+    <header className="h-16 max-h-16 flex items-center justify-between shadow-lg w-full px-4 pr-8 md:px-12 fixed top-0 z-30 bg-blue-500">
+      <div className="flex w-full items-center justify-between space-x-4">
         <nav>
           <ul className="flex items-center justify-start space-x-4 lg:space-x-12">
             {headerItems.map((item) => (
